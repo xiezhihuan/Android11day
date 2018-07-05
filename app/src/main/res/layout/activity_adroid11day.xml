@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="day01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day01"
+        android:onClick="onClick"/>
+
+    <Button
+        android:text="day02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day02" />
+
+    <Button
+        android:text="day03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day03" />
+
+    <Button
+        android:text="day04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day04" />
+
+    <Button
+        android:text="day05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day05" />
+
+    <Button
+        android:text="day06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day06" />
+
+    <Button
+        android:text="day07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day07" />
+
+    <Button
+        android:text="day08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day08" />
+
+    <Button
+        android:text="day09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day09" />
+
+    <Button
+        android:text="day10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day10" />
+
+    <Button
+        android:text="day11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day11" />
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/day05_1_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入账号"
+        android:text="admin"/>
+
+    <EditText
+        android:id="@+id/day05_1_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:text="123456"/>
+
+    <Button
+        android:id="@+id/day05_1_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get"
+        android:onClick="get"/>
+
+    <Button
+        android:id="@+id/day05_1_packagingGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="封装Get"
+        android:onClick="get2"/>
+
+    <Button
+        android:id="@+id/day05_1_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post"
+        android:onClick="post"/>
+    <Button
+        android:id="@+id/day05_1_get2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AsyncHttpClient_get"
+        android:onClick="AsyncHttpClient_get"/>
+
+    <Button
+        android:id="@+id/day05_1_post2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AsyncHttpClient_post"
+        android:onClick="AsyncHttpClient_post"/>
+
+    <Button
+        android:id="@+id/day05_1_Download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多线程下载"
+        android:onClick="Download"/>
+</LinearLayout>

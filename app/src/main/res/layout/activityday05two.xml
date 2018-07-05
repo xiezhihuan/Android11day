@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://192.168.199.158:8080/shipin.avi"
+        android:hint="请输入网址"/>
+    <EditText
+        android:id="@+id/et_threadCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入线程数"
+        android:text="3"/>
+    <EditText
+        android:id="@+id/et_fileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="shipin111.txt"
+        android:hint="请输入文件名称"/>
+    <EditText
+        android:id="@+id/et_fileContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12334"
+        android:hint="请输入文件内容"/>
+    <LinearLayout
+        android:id="@+id/ll_editText"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"></LinearLayout>
+    <Button
+        android:id="@+id/bt_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="DownloadTwo"
+        android:text="下载"/>
+    <Button
+        android:id="@+id/bt_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Test"
+        android:text="测试"/>
+    <Button
+        android:id="@+id/bt_createF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="CreateFile"
+        android:text="创建测试文件"/>
+
+    <LinearLayout
+        android:id="@+id/ll_progressBar"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"></LinearLayout>
+</LinearLayout>

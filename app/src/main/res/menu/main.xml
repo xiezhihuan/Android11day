@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:title="笔记"
+            android:icon="@mipmap/ic_cehua_biji"
+            />
+        <item
+            android:id="@+id/item2"
+            android:title="聊天室"
+            android:icon="@mipmap/ic_cehua_liaotianshi"
+            />
+        <item
+            android:id="@+id/item3"
+            android:title="联系人"
+            android:icon="@mipmap/ic_cehua_lianxiren"
+            />
+        <item
+            android:id="@+id/item4"
+            android:title="设置"
+            android:icon="@mipmap/ic_cehua_shezhi"
+            />
+        <item
+            android:id="@+id/item5"
+            android:title="退出"
+            android:icon="@mipmap/ic_cehua_tuichu"
+            />
+    </group>
+</menu>

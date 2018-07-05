@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/cidian_input"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="请输入您要查询的单词"
+        android:background="#ffffff"
+        android:autoText="true"
+        android:textColorHighlight="#FFA500"
+        android:maxLength="100"
+        android:textCursorDrawable="@drawable/cursor_yellow"
+        />
+    <Button
+        android:id="@+id/cidian_chaxun"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="查询"
+        android:background="#FFA500"/>
+    <EditText
+        android:id="@+id/cidian_output"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:enabled="false"
+        android:gravity="start"
+        android:textColor="@color/colorYellow"
+        />
+
+
+</LinearLayout>

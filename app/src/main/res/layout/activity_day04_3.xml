@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/day04_3_bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handlertimer"
+        android:text="@string/day04_3_bt1" />
+    <Button
+        android:id="@+id/day04_3_bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="timertimer"
+        android:text="@string/day04_3_bt2" />
+    <Button
+        android:id="@+id/day04_3_bt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="timertimer2"
+        android:text="@string/day04_3_bt3" />
+    <TextView
+        android:id="@+id/day04_3_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        />
+    <Button
+        android:id="@+id/day04_3_bt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handlerupdateui"
+        android:text="@string/day04_3_bt4" />
+
+</LinearLayout>
